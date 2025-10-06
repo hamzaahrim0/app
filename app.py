@@ -10,19 +10,18 @@ from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 import plotly.express as px
 import plotly.graph_objects as go
 
-# Configuration de la page
 st.set_page_config(
     page_title="Détection Cancer Prostate",
     page_icon="🏥",
     layout="wide"
 )
 
-# Titre principal
+
 st.title("🏥 Détection du Cancer de la Prostate")
 st.markdown("### Modèle de Régression Linéaire - Prédiction du PSA")
 st.divider()
 
-# Barre latérale
+
 st.sidebar.title("📋 Navigation")
 page = st.sidebar.radio(
     "Choisissez une section:",
