@@ -23,4 +23,4 @@ st.line_chart(df)
 
 # Un bouton interactif
 if st.button("Clique ici"):
-    st.success("Bravo, ton bouton fonctionne ✅")
+    st.success("Bravo, ton bouton fonctionne ")
